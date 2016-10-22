@@ -3,7 +3,8 @@ public class Student{
   float gpa;
   private String firstName;
   private String lastName;
-  String major;
+  private String major;
+
   public Student(){
 
   }
@@ -16,5 +17,9 @@ public class Student{
 
   public String fullName(){
     return this.firstName + " " + this.lastName;
+  }
+
+  public String getMajor(){
+    return this.major;
   }
 }
